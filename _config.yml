@@ -26,7 +26,7 @@ content:
   - title: Experience
     layout: list
     content:
-      - layout: left
+      - layout: top-left
         border: weak
         title: Coluxa Inc.
         sub_title: Software Engineer Intern
@@ -39,7 +39,7 @@ content:
           - Built visualizations with Matplotlib to evaluate and enhance algorithm performance and analyze scanned objects
           - Collaborated with a team of 4 to design models and worked with version control
           - Implemented features with object-oriented designs
-      - layout: left
+      - layout: top-left
         border: weak
         title: Keyanshe
         sub_title: Data Analyst Intern
@@ -50,6 +50,29 @@ content:
           - Cleaned and synthesized messy data using Pandas; designed and maintained automated data processes
           - Developed internal PostgreSQL databases by interacting cross-functionally with the data department and the consulting department and fed data into the data warehouse
           - Built and managed 2 dashboards to identify investment opportunities
+  
+  - title: Education
+    layout: list
+    content:
+      - layout: top-left
+        border: weak
+        title: New York University
+        sub_title: "M.S. in Statistics, GPA: 3.96/4"
+        caption: September 2021 - May 2023
+        description: | 
+          - Coursework: Machine Learning, Linear Models, Causal Inference, Multi-Level Modeling, Experimental Design
+          - Leadership Activity: Society for Statistics Students Board Member (American Statistical Association)
+      - layout: top-left
+        border: weak
+        title: Qingdao University
+        sub_title: "B.S. in Statistics, GPA: 3.87/4"
+        caption: September 2017 - June 2021
+        description: | 
+          - Math Coursework: Real Analysis, Algebra, Mathematical Analysis, Mathematical Optimization, Differetial Equation
+          - Statistics Coursework: Probability, Time Series, Stochastic Process
+          - Computer Science Coursework: C++, Matlab, Statistical Computing
+          - Finance Coursework: Microeconomics, Macroeconomics, Life Insurance Actuarial Science
+
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -99,23 +122,12 @@ content:
           - Designed a login and register system for students and administrators to maintain school records with C++
           - Developed a database using MySQL and connected the management system to the MySQL database
 
-  - title: Education
-    layout: list
-    content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+  # - title: A Little More About Me
+  #   layout: text
+  #   content: | # this will include new lines to allow paragraphs
+  #     This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+  #     Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
 # Footer
 footer_show_references: true
@@ -123,7 +135,7 @@ footer_show_references: true
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+remote_theme: Xinming-Dai/modern-resume-theme (Use this if you are hosting your resume on GitHub)
 
 sass:
   sass_dir: _sass
