@@ -1,98 +1,104 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
-
-# Content configuration version
+repository: https://github.com/Xinming-Dai/Xinmingdai.github.io
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
-# email_title: Email (Email title override)
-phone: Your phone number (optional)
-# phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
-# website_title: Web (Website title override)
+name: Xinming Dai
+title: M.S. in Statistics at NYU; Class of 2023
+email: xd2145@nyu.edu
+phone: (917)535-9084
 
-# Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+github_username:  Xinming-Dai
+linkedin_username: xinming-dai
 
-# Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
-
-# About Section
-# about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
-about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+about_profile_image: images/headshot.png
+about_content: | 
+  Hi, I'm Xinming. I have a background in mathematics, programming, and statistics. 
+  I am passionate about using artificial intelligence and mathematical models to solve complex, real-world problems. 
+  I am eager to use my skills in statistics to uncover patterns in data and am always looking to expand my knowledge and expertise in new fields and technologies. 
+  
+  Currently, I am actively seeking entry-level positions in software engineering and data science. 
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
   - title: Experience
     layout: list
     content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+      - layout: left
+        border: weak
+        title: Coluxa Inc.
+        sub_title: Software Engineer Intern
+        caption: June 2022 - August 2022
         quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
+          Coluxa Inc. is developing an innovative microscope system to support life science research and disease diagnosis.
+        description: | 
+          - Automated image processing and analysis by developing deep learning algorithms with 1.7 MSE using TensorFlow, and deployed the new feature, which assisted with data transfers via APIs (Numpy, SciPy)
+          - Processed image data with OpenCV and sped up model training by 40% by optimizing data delivery using CUDA 
+          - Built visualizations with Matplotlib to evaluate and enhance algorithm performance and analyze scanned objects
+          - Collaborated with a team of 4 to design models and worked with version control
+          - Implemented features with object-oriented designs
+      - layout: left
+        border: weak
+        title: Keyanshe
+        sub_title: Data Analyst Intern
+        caption: April 2021 - June 2021
+        description: | 
+          - Optimized and automated data collection process by 70% by building web scrapers with Python urllib and parsed data with BeautifulSoup for real estate market data; transformed the raw data into JSON format
+          - Conducted market research and collected 500+ real estate data in collaboration with stakeholders
+          - Cleaned and synthesized messy data using Pandas; designed and maintained automated data processes
+          - Developed internal PostgreSQL databases by interacting cross-functionally with the data department and the consulting department and fed data into the data warehouse
+          - Built and managed 2 dashboards to identify investment opportunities
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        border: weak
+        title: NYC Vehicle Collision Risk
+        quote: >
+          Python: GeoPandas, Pandas, Sklearn, Geojson
+        additional_links:
+          - title:  Github page for project
+            icon: fab fa-github
+            url: https://github.com/aj-cooke/NYC-Traffic-Accidents
+        description: | 
+          - Processed 2 million geographic collision data and traffic data coming from NYC Open Data, using geopandas for data set merging and geoplot for geographic data plotting; standardized and modularized the code in Python
+          - Performed supervised machine learning algorithms (e.g. random forest, KNN) on the merged tables to predict injury and mortality risks and achieved a recall score of 0.8
+      - layout: top-middle
+        border: weak
+        title: Forecast Major Movements in the Cryptocurrency Market
+        quote: >
+          R; Python: Tweepy, Json
+        additional_links:
+          - title:  Github page for project
+            icon: fab fa-github
+            url: https://github.com/Xinming-Dai/cryptocurrency-value-prediction
+        description: | 
+          - Constructed Twitter bots using Tweepy API in Python and improved efficiency by involving exceptions and OOP; obtained and processed tweets from several influential accounts in JSON objects
+          - Performed text analysis with tidytext to identify cryptocurrency related influential tweets and built time series models to predict the daily returns of Ethereum based on related tweets and several other assets; achieved 1.9 MSE
+      - layout: top-middle
+        border: weak
+        title: Confidence Interval for Coefficients of Variation of Zero-Inflated Gamma Distribution
+        quote: >
+          Independent Statistical Research
+        additional_links:
+          - title:  Github page for project
+            icon: fab fa-github
+            url: https://github.com/Xinming-Dai/ZIgamma_confidence_intervals
+        description: | 
+          - Conducted literature reviews and proposed 4 methods including the standard bootstrap to construct confidence intervals for the difference of coefficients of variance of two zero-inflated gamma distributions
+          - Constructed R simulations for these four methods to compare coverage rates and other relevant properties of CIs
+          - Evaluated variation of precipitation data of Beijing and Zhengzhou by applying these new methods
+      - layout: top-middle
+        border: weak
+        title: Student Record Management System
+        quote: >
+          C++, MySQL
+        description: | 
+          - Designed a login and register system for students and administrators to maintain school records with C++
+          - Developed a database using MySQL and connected the management system to the MySQL database
+
   - title: Education
     layout: list
     content:
