@@ -3,7 +3,7 @@ repository: https://github.com/Xinming-Dai/Xinming-Dai.github.io
 version: 2
 
 # Personal info
-name: Xinming Dai
+name: Xinming Mia Dai
 title: M.S. in Statistics at NYU; Class of 2023
 email: xd2145@nyu.edu
 phone: (917)535-9084
@@ -16,40 +16,79 @@ linkedin_username: xinming-dai
 
 about_profile_image: images/headshot.png
 about_content: | 
-  Hi, I'm Xinming. I have a background in mathematics, programming, and statistics. 
-  I am passionate about using artificial intelligence and mathematical models to solve complex, real-world problems. 
-  I am eager to use my skills in statistics to uncover patterns in data and am always looking to expand my knowledge and expertise in new fields and technologies. 
+  Hi, I'm Mia. I hold a MS degree in Applied Statistics from New York University and a BS degree in Applied Statistics from Qingdao University. 
+  Currently, I'm an adjunct instructor at New York University and work as a research assistant for Professor [Marc Scott](https://steinhardt.nyu.edu/people/marc-scott).
+  My research interest lies in
+    - Theoretical statistics, such as multilevel modeling, bootstrap methods, fiducial methods, etc.
+    - Statistical machine learning and its implementation in biology and image analysis.
+    - I’m also open to explore other research areas.
   
-  Currently, I am actively seeking entry-level positions in software engineering and data science. 
+  In my spare time, I enjoy cycling and playing tennis. A fun fact about me: I survived a summer in the Bay Area relying solely on my bicycle for transportation!
+  
+  
 
 content:
-  - title: Experience
+  - title: Publications
+    layout: list
+    content:
+      - layout: top-middle
+        border: weak
+        description: |
+          - [Guo, H., Qian, Y., Zhu, Y., Dai, X., Wang, X. Confidence intervals for the difference between coefficients of variation of zero-inflated gamma distributions[J]. AIMS Mathematics, 2023, 8(12): 29713-29733.](https://www.aimspress.com/article/doi/10.3934/math.20231521)
+  
+  - title: Research Experience
+    layout: list
+    content:
+    - layout: top-left
+      border: weak
+      title: New York University
+      sub_title: Research Assistant
+      caption: September 2023 - Present
+      description: | 
+        - Assistant to Professor Marc Scott studying latent class models for vectors of binary outcomes with missing variables
+    - layout: top-left
+      border: weak
+      title: Qingdao University
+      sub_title: Research Assistant
+      caption: September 2020 - August 2021
+      description: | 
+        - Developed four interval estimation methods for zero-inflated gamma distributions based on fiducial inference, Box-Cox transformation, parametric bootstrap, and the method of variance of estimates recovery (MOVER); designed and conducted computer experiment to compare the performance of the four estimation methods ([code can be found here](https://github.com/Xinming-Dai/ZIgamma_confidence_intervals))
+        - Designed confidence intervals constructed using a pivot quantity for semiparametric single-index models; carried out simulations for these new methods in R
+        - Established a novel addable ordinary differential equation model with the group MCP penalty for reconstruction of gene regulatory networks with data from DREAM Systems Biology Challenges
+
+  - title: Teaching and Professional Experience
     layout: list
     content:
       - layout: top-left
         border: weak
+        title: New York University
+        sub_title: Adjunct Instructor
+        caption: August 2023 - Present
+        description: | 
+          - Course assistant for Multilevel Modeling for 60 Master's and PhD students; explained hierarchical linear model concepts and LMER syntax in mini lab sessions during office hours
+          - Lab instructor for Statistical Computing class; prepared lab activities focusing on practicing statistical analysis, graphic representations, and statistical simulation using R
+      - layout: top-left
+        border: weak
         title: Coluxa Inc.
-        sub_title: Software Engineer Intern
+        sub_title: Algorithm Engineering Intern
         caption: June 2022 - August 2022
         quote: >
           Coluxa Inc. is developing an innovative microscope system to support life science research and disease diagnosis.
         description: | 
-          - Automated image processing and analysis by developing deep learning algorithms with 1.7 MSE using TensorFlow, and deployed the new feature, which assisted with data transfers via APIs (Numpy, SciPy)
-          - Processed image data with OpenCV and sped up model training by 40% by optimizing data delivery using CUDA 
-          - Built visualizations with Matplotlib to evaluate and enhance algorithm performance and analyze scanned objects
-          - Collaborated with a team of 4 to design models and worked with version control
-          - Implemented features with object-oriented designs
+          - Developed innovative deep learning algorithms to analyze fluorescent markers in human cells, revamping an otherwise labor-intensive manual process and develop a new AI-assisted microscope
+          - Automated bioimage processing and analysis by tuning algorithm parameters and implemented using TensorFlow
+          - Processed image data with OpenCV and sped up model training by 40\% by optimizing data delivery using CUDA
+          - Built visualizations with Seaborn to evaluate and enhance algorithm performance and analyze scanned objects
+          - [Slides](https://drive.google.com/file/d/1pKdUtVn2c92uG9e5l_zSaDElhL_dH4Ur/view?usp=sharing)
       - layout: top-left
         border: weak
         title: Keyanshe
         sub_title: Data Analyst Intern
         caption: April 2021 - June 2021
         description: | 
-          - Optimized and automated data collection process by 70% by building web scrapers with Python urllib and parsed data with BeautifulSoup for real estate market data; transformed the raw data into JSON format
-          - Conducted market research and collected 500+ real estate data in collaboration with stakeholders
-          - Cleaned and synthesized messy data using Pandas; designed and maintained automated data processes
-          - Developed internal PostgreSQL databases by interacting cross-functionally with the data department and the consulting department and fed data into the data warehouse
-          - Built and managed 2 dashboards to identify investment opportunities
+          - Optimized and automated data collection processes by 70\% (in time) by building web scrapers with Python urllib and parsed real estate market data with Beautiful Soup
+          - Conducted market research and collected 500+ pieces of real estate data in collaboration with stakeholders
+          - Cleaned and synthesized messy data using Pandas; developed internal PostgreSQL databases by collaborating with the data and consulting departments
   
   - title: Education
     layout: list
@@ -57,11 +96,11 @@ content:
       - layout: top-left
         border: weak
         title: New York University
-        sub_title: "M.S. in Statistics, GPA: 3.96/4"
+        sub_title: "M.S. in Statistics, GPA: 3.97/4"
         caption: September 2021 - May 2023
         description: | 
-          - Coursework: Machine Learning, Linear Models, Causal Inference, Multi-Level Modeling, Experimental Design
-          - Leadership Activity: Society for Statistics Students Board Member (American Statistical Association)
+          - Coursework: Algorithms, Machine Learning, Causal Inference, Multi-Level Modeling, Experimental Design
+          - Leadership Activity: [Society for Statistics Club](https://steinhardt.nyu.edu/current-students/graduate-student-organization/graduate-student-clubs-and-organizations#:~:text=The%20Society%20for%20Statistics%20Students,for%20students%20pursuing%20quantitative%20careers.) Board Member (American Statistical Association)
       - layout: top-left
         border: weak
         title: Qingdao University
@@ -100,19 +139,6 @@ content:
         description: | 
           - Constructed Twitter bots using Tweepy API in Python and improved efficiency by involving exceptions and OOP; obtained and processed tweets from several influential accounts in JSON objects
           - Performed text analysis with tidytext to identify cryptocurrency related influential tweets and built time series models to predict the daily returns of Ethereum based on related tweets and several other assets; achieved 1.9 MSE
-      - layout: top-middle
-        border: weak
-        title: Confidence Interval for Coefficients of Variation of Zero-Inflated Gamma Distribution
-        quote: >
-          Independent Statistical Research
-        additional_links:
-          - title:  Github page for project
-            icon: fab fa-github
-            url: https://github.com/Xinming-Dai/ZIgamma_confidence_intervals
-        description: | 
-          - Conducted literature reviews and proposed 4 methods including the standard bootstrap to construct confidence intervals for the difference of coefficients of variance of two zero-inflated gamma distributions
-          - Constructed R simulations for these four methods to compare coverage rates and other relevant properties of CIs
-          - Evaluated variation of precipitation data of Beijing and Zhengzhou by applying these new methods
       - layout: top-middle
         border: weak
         title: Student Record Management System
