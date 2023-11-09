@@ -77,7 +77,7 @@ content:
         description: | 
           - Developed innovative deep learning algorithms to analyze fluorescent markers in human cells, revamping an otherwise labor-intensive manual process and develop a new AI-assisted microscope
           - Automated bioimage processing and analysis by tuning algorithm parameters and implemented using TensorFlow
-          - Processed image data with OpenCV and sped up model training by 40\% by optimizing data delivery using CUDA
+          - Processed image data with OpenCV and sped up model training by 40% by optimizing data delivery using CUDA
           - Built visualizations with Seaborn to evaluate and enhance algorithm performance and analyze scanned objects
           - [Slides](https://drive.google.com/file/d/1pKdUtVn2c92uG9e5l_zSaDElhL_dH4Ur/view?usp=sharing)
       - layout: top-left
@@ -86,7 +86,7 @@ content:
         sub_title: Data Analyst Intern
         caption: April 2021 - June 2021
         description: | 
-          - Optimized and automated data collection processes by 70\% (in time) by building web scrapers with Python urllib and parsed real estate market data with Beautiful Soup
+          - Optimized and automated data collection processes by 70% (in time) by building web scrapers with Python urllib and parsed real estate market data with Beautiful Soup
           - Conducted market research and collected 500+ pieces of real estate data in collaboration with stakeholders
           - Cleaned and synthesized messy data using Pandas; developed internal PostgreSQL databases by collaborating with the data and consulting departments
   
