@@ -110,7 +110,7 @@ content:
         description: | 
           - Math Coursework: Real Analysis, Algebra, Mathematical Analysis, Mathematical Optimization, Differetial Equation
           - Statistics Coursework: Probability, Time Series, Stochastic Process
-          - Computer Science Coursework: C++, Matlab, Statistical Computing
+          - Computer Science Coursework: Algorithms, C++, Matlab, Statistical Computing
           - Finance Coursework: Microeconomics, Macroeconomics, Life Insurance Actuarial Science
 
   - title: Projects # Title for the section
