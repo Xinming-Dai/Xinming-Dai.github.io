@@ -19,11 +19,12 @@ about_content: |
   Hi, I'm Mia. I hold a MS degree in Applied Statistics from New York University and a BS degree in Applied Statistics from Qingdao University. 
   Currently, I'm an adjunct instructor at New York University and work as a research assistant for Professor [Marc Scott](https://steinhardt.nyu.edu/people/marc-scott).
   My research interest lies in
-    - Theoretical statistics, such as multilevel modeling, bootstrap methods, fiducial methods, etc.
-    - Statistical machine learning and its implementation in biology and image analysis.
+    - Statistical machine learning and its implementation in biology and bioimage analysis.
+    - Sequence analysis.
+    - Bootstrap methods and fiducial methods.
     - I’m also open to explore other research areas.
   
-  In my spare time, I enjoy cycling and playing tennis. A fun fact about me: I survived a summer in the Bay Area relying solely on my bicycle for transportation!
+  In my spare time, I enjoy cycling and playing tennis. A fun fact about me: I survived a summer in the Bay Area relying solely on my bicycle for transportation! I also expand my passion for machine learning and computer vision into my daily life. [Alan Cha](https://github.com/Alan-Cha) and I am building a wigglegram camera using Raspberry Pi. 
   
   
 
