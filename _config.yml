@@ -118,6 +118,18 @@ content:
     content:
       - layout: top-middle
         border: weak
+        title: Wiggle Stereoscopy Camera
+        quote: >
+          Python: OpenCV, NumPy, Pillow
+        additional_links:
+          - title:  Project Demonstration
+            icon: fab fa-google-drive
+            url: https://drive.google.com/file/d/1vrIYO5u3fMDVPAVTt_Eenion6NkpSrtY/view?usp=sharing
+        description: | 
+          - Constructed a camera with [four lenses, supported by a Raspberry Pi chip](https://drive.google.com/file/d/13Q1RxvcvB-lfBAPG2WICcXh1MvgYWtRD/view?usp=drive_link). The camera is capable of capturing four pictures simultaneously and processing them into a GIF-format wiggle image
+          - Utilized Haar Cascade classifiers in OpenCV to detect faces in images, relocated pictures around detected faces to generate [wiggle images](https://drive.google.com/file/d/1Rl52PIkU6bmPynlw9Nqp6GWPRc868FrI/view?usp=drive_link) using the Pillow package in Python
+      - layout: top-middle
+        border: weak
         title: NYC Vehicle Collision Risk
         quote: >
           Python: GeoPandas, Pandas, Sklearn, Geojson
