@@ -46,7 +46,7 @@ content:
       sub_title: Research Assistant
       caption: September 2023 - Present
       description: | 
-        - Assistant to Professor Marc Scott studying latent class models for vectors of binary outcomes with missing variables
+        - Assistant to Professor Marc Scott improving frequency plots by employing Hamming distance to cluster analogous sequences in sequence analysis
     - layout: top-left
       border: weak
       title: Qingdao University
