@@ -161,6 +161,12 @@ Any changes you make will automatically build and you will be able to see these 
 
 ***Note:** You will need to re-run `bundle exec jekyll serve` to see changes made in `_config.yml`.*
 
+### Ruby Version Control
+Use rbenv to manage different Ruby versions.
+`rbenv install 2.7.0` install a Ruby version.
+`rbenv local 2.7.0` to set a specific version of Ruby.
+`rbenv rehash` to before `bundle install`.
+
 ### Docker
 
 If you have docker installed you can simply run `docker-compose up` to launch the site in a container, it will then be hosted at `http://localhost:4000`
