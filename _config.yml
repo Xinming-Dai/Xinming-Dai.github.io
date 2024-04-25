@@ -44,7 +44,7 @@ content:
       border: weak
       title: New York University
       sub_title: Research Assistant
-      caption: September 2023 - Present
+      caption: September 2023 - February 2024
       description: | 
         - Assistant to Professor Marc Scott improving frequency plots by employing Hamming distance to cluster analogous sequences in sequence analysis
     - layout: top-left
@@ -64,7 +64,7 @@ content:
         border: weak
         title: Red Snapper Camera LLC
         sub_title: Co-Founder and Software Engineer
-        caption: Feb. 2024 - Present
+        caption: February 2024 - Present
         description: | 
           - Constructed a camera with [four lenses, supported by a Raspberry Pi chip](https://drive.google.com/file/d/13Q1RxvcvB-lfBAPG2WICcXh1MvgYWtRD/view?usp=drive_link). The camera is capable of capturing four pictures simultaneously and processing them into a GIF-format wiggle image
           - Utilized Haar Cascade classifiers in OpenCV to detect faces in images, relocated pictures around detected faces to generate [wiggle images](https://drive.google.com/file/d/1Rl52PIkU6bmPynlw9Nqp6GWPRc868FrI/view?usp=drive_link) using the Pillow package in Python
@@ -73,7 +73,7 @@ content:
         border: weak
         title: New York University
         sub_title: Adjunct Instructor
-        caption: August 2023 - Feb 2024
+        caption: August 2023 - February 2024
         description: | 
           - Course assistant for Multilevel Modeling for 60 Master's and PhD students; explained hierarchical linear model concepts and LMER syntax in mini lab sessions during office hours
           - Lab instructor for Statistical Computing class; prepared lab activities focusing on practicing statistical analysis, graphic representations, and statistical simulation using R
