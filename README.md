@@ -5,8 +5,6 @@
 
 [View Demo](https://sproogen.github.io/modern-resume-theme/)
 
-naonao girl
-
 ----
 
 ## Announcements
