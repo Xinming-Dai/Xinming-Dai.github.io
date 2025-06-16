@@ -62,9 +62,16 @@ content:
     content:
       - layout: top-left
         border: weak
+        title: Columbia University
+        sub_title: Teaching Assistant
+        description: | 
+          - 2024 Fall UN2103 Applied Linear Regression Analysis
+          - 2025 Spring UN2104 Applied Categirical Data Analysis
+      - layout: top-left
+        border: weak
         title: Red Snapper Camera LLC
         sub_title: Co-Founder and Software Engineer
-        caption: February 2024 - Present
+        caption: February 2024 - 2024 September
         description: | 
           - Constructed a camera with [four lenses, supported by a Raspberry Pi chip](https://drive.google.com/file/d/13Q1RxvcvB-lfBAPG2WICcXh1MvgYWtRD/view?usp=drive_link). The camera is capable of capturing four pictures simultaneously and processing them into a GIF-format wiggle image
           - Utilized Haar Cascade classifiers in OpenCV to detect faces in images, relocated pictures around detected faces to generate [wiggle images](https://drive.google.com/file/d/1Rl52PIkU6bmPynlw9Nqp6GWPRc868FrI/view?usp=drive_link) using the Pillow package in Python
@@ -107,7 +114,7 @@ content:
         border: weak
         title: Columbia University
         sub_title: "Ph.D. in Statistics"
-        caption: Incoming Student in Fall 2024
+        caption: 2024 September - Current
       - layout: top-left
         border: weak
         title: New York University
