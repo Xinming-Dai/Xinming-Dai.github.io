@@ -15,12 +15,13 @@ linkedin_username: xinming-dai
 
 about_profile_image: images/headshot.jpg
 about_content: | 
-  Hi, I'm Mia. I am currently a PhD student at Columbia University. I hold a MS degree in Applied Statistics from New York University and a BS degree in Applied Statistics from Qingdao University. 
-  Before working and stuyding at Columbia, I was an adjunct instructor at New York University and worked as a research assistant for Professor [Marc Scott](https://steinhardt.nyu.edu/people/marc-scott).
+  Hi, I'm Mia. I am currently a PhD student in the Columbia Statistics department. I am working closely with Professor [Liam Paninski](https://sites.stat.columbia.edu/liam/). 
+  
+  I hold a MS degree in Applied Statistics from New York University and a BS degree in Applied Statistics from Qingdao University. 
+  Before working and studying at Columbia, I was an adjunct instructor at New York University and worked as a research assistant for Professor [Marc Scott](https://steinhardt.nyu.edu/people/marc-scott).
   My research interest lies in
     - Statistical machine learning and its implementation in biology and bioimage analysis.
     - Sequence analysis.
-    - Bootstrap methods and fiducial methods.
     - I’m also open to explore other research areas.
   
   In my spare time, I enjoy cycling and playing tennis. A fun fact about me: I survived a summer in the Bay Area relying solely on my bicycle for transportation! I also expand my passion for machine learning and computer vision into my daily life. [Alan Cha](https://github.com/Alan-Cha) and I are building a wigglegram camera using Raspberry Pi. Some wigglegrams can be accessed [here](https://drive.google.com/drive/folders/1HyCeZjHyjDnkzB2Xc-RQgAqq1vHK_KIj?usp=sharing).
