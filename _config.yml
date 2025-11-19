@@ -97,15 +97,6 @@ content:
           - Processed image data with OpenCV and sped up model training by 40% by optimizing data delivery using CUDA
           - Built visualizations with Seaborn to evaluate and enhance algorithm performance and analyze scanned objects
           - [Slides](https://drive.google.com/file/d/1pKdUtVn2c92uG9e5l_zSaDElhL_dH4Ur/view?usp=sharing)
-      - layout: top-left
-        border: weak
-        title: Keyanshe
-        sub_title: Data Analyst Intern
-        caption: April 2021 - June 2021
-        description: | 
-          - Optimized and automated data collection processes by 70% (in time) by building web scrapers with Python urllib and parsed real estate market data with Beautiful Soup
-          - Conducted market research and collected 500+ pieces of real estate data in collaboration with stakeholders
-          - Cleaned and synthesized messy data using Pandas; developed internal PostgreSQL databases by collaborating with the data and consulting departments
   
   - title: Education
     layout: list
@@ -134,42 +125,7 @@ content:
           - Computer Science Coursework: Algorithms, C++, Matlab, Statistical Computing
           - Finance Coursework: Microeconomics, Macroeconomics, Life Insurance Actuarial Science
 
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        border: weak
-        title: NYC Vehicle Collision Risk
-        quote: >
-          Python: GeoPandas, Pandas, Sklearn, Geojson
-        additional_links:
-          - title:  Github page for project
-            icon: fab fa-github
-            url: https://github.com/aj-cooke/NYC-Traffic-Accidents
-        description: | 
-          - Processed 2 million geographic collision data and traffic data coming from NYC Open Data, using geopandas for data set merging and geoplot for geographic data plotting; standardized and modularized the code in Python
-          - Performed supervised machine learning algorithms (e.g. random forest, KNN) on the merged tables to predict injury and mortality risks and achieved a recall score of 0.8
-      - layout: top-middle
-        border: weak
-        title: Forecast Major Movements in the Cryptocurrency Market
-        quote: >
-          R; Python: Tweepy, Json
-        additional_links:
-          - title:  Github page for project
-            icon: fab fa-github
-            url: https://github.com/Xinming-Dai/cryptocurrency-value-prediction
-        description: | 
-          - Constructed Twitter bots using Tweepy API in Python and improved efficiency by involving exceptions and OOP; obtained and processed tweets from several influential accounts in JSON objects
-          - Performed text analysis with tidytext to identify cryptocurrency related influential tweets and built time series models to predict the daily returns of Ethereum based on related tweets and several other assets; achieved 1.9 MSE
-      - layout: top-middle
-        border: weak
-        title: Student Record Management System
-        quote: >
-          C++, MySQL
-        description: | 
-          - Designed a login and register system for students and administrators to maintain school records with C++
-          - Developed a database using MySQL and connected the management system to the MySQL database
-
+  
   # - title: A Little More About Me
   #   layout: text
   #   content: | # this will include new lines to allow paragraphs
