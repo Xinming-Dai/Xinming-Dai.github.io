@@ -20,8 +20,6 @@ about_content: |
   I hold an MS in Applied Statistics from New York University and a BS in Applied Statistics from Qingdao University. Before joining Columbia, I was an adjunct instructor at New York University and worked as a research assistant with Professor [Marc Scott](https://steinhardt.nyu.edu/people/marc-scott).
   My research interests lie in bridging animal behavior and neural activity through computational modeling, particularly neural encoding and decoding. I believe that better computational models connecting behavior and neural activity can deepen our understanding of the brain and ultimately benefit society.
   
-  In my spare time, I enjoy cycling and playing tennis. A fun fact about me: I survived a summer in the Bay Area relying solely on my bicycle for transportation! I also expand my passion for machine learning and computer vision into my daily life. [Alan Cha](https://github.com/Alan-Cha) and I are building a wigglegram camera using Raspberry Pi. Some wigglegrams can be accessed [here](https://drive.google.com/drive/folders/1HyCeZjHyjDnkzB2Xc-RQgAqq1vHK_KIj?usp=sharing).
-  
   
 
 content:
@@ -102,13 +100,15 @@ content:
           - Processed image data with OpenCV and sped up model training by 40% by optimizing data delivery using CUDA
           - Built visualizations with Seaborn to evaluate and enhance algorithm performance and analyze scanned objects
           - [Slides](https://drive.google.com/file/d/1pKdUtVn2c92uG9e5l_zSaDElhL_dH4Ur/view?usp=sharing)
-  
-  # - title: A Little More About Me
-  #   layout: text
-  #   content: | # this will include new lines to allow paragraphs
-  #     This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 
-  #     Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+  - title: Beyond Research
+    layout: text
+    content: |
+      In my spare time, I enjoy cycling and playing tennis. A fun fact about me: I survived an entire summer in the Bay Area with my bicycle as my only means of transportation!
+
+      My passion for machine learning and computer vision also extends beyond research. [Alan Cha](https://github.com/Alan-Cha) and I are building a wigglegram camera using a Raspberry Pi. You can check out some of our wigglegrams [here](https://drive.google.com/drive/folders/1HyCeZjHyjDnkzB2Xc-RQgAqq1vHK_KIj?usp=sharing)!
+
+      I am also a part-time food photographer. I love capturing the fun places I explore and the delicious food I discover around NYC. You can find some of my photos on [Google Maps](https://www.google.com/maps/contrib/109191098930474601411/photos/).
 
 # Footer
 footer_show_references: true
