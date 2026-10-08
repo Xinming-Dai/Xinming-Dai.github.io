@@ -15,14 +15,10 @@ linkedin_username: xinming-dai
 
 about_profile_image: images/headshot.jpeg
 about_content: | 
-  Hi, I'm Mia. I am currently a PhD student in the Columbia Statistics department. I am working closely with Professor [Liam Paninski](https://sites.stat.columbia.edu/liam/). 
+  Hi, I'm Mia! I am a third-year PhD student in the Department of Statistics at Columbia University. I am fortunate to be advised by Professor [Liam Paninski](https://sites.stat.columbia.edu/liam/), and I have also had the pleasure of working closely with [Yizi Zhang](https://yzhang511.github.io/) and [Charlie Windolf](https://scholar.google.com/citations?user=U9B1P9oAAAAJ&hl=en).
   
-  I hold a MS degree in Applied Statistics from New York University and a BS degree in Applied Statistics from Qingdao University. 
-  Before working and studying at Columbia, I was an adjunct instructor at New York University and worked as a research assistant for Professor [Marc Scott](https://steinhardt.nyu.edu/people/marc-scott).
-  My research interest lies in
-    - Statistical machine learning and its implementation in biology and bioimage analysis.
-    - Sequence analysis.
-    - I’m also open to explore other research areas.
+  I hold an MS in Applied Statistics from New York University and a BS in Applied Statistics from Qingdao University. Before joining Columbia, I was an adjunct instructor at New York University and worked as a research assistant with Professor [Marc Scott](https://steinhardt.nyu.edu/people/marc-scott).
+  My research interests lie in bridging animal behavior and neural activity through computational modeling, particularly neural encoding and decoding. I believe that better computational models connecting behavior and neural activity can deepen our understanding of the brain and ultimately benefit society.
   
   In my spare time, I enjoy cycling and playing tennis. A fun fact about me: I survived a summer in the Bay Area relying solely on my bicycle for transportation! I also expand my passion for machine learning and computer vision into my daily life. [Alan Cha](https://github.com/Alan-Cha) and I are building a wigglegram camera using Raspberry Pi. Some wigglegrams can be accessed [here](https://drive.google.com/drive/folders/1HyCeZjHyjDnkzB2Xc-RQgAqq1vHK_KIj?usp=sharing).
   
@@ -35,8 +31,17 @@ content:
       - layout: top-middle
         border: weak
         description: |
+          - [Dai, X., Jin, Q., Tan, T., Chen, B., Lyu, H., Aharon, L., Daruwalla, K., Hou, X.H., Whiteway, M.R., Paninski, L., Zhang, Y. Sparse-View Interpretable 3D Animal Behavior Representations for Neural Encoding and Decoding. arXiv preprint arXiv:2609.36217, 2026.](https://arxiv.org/abs/2609.36217)
           - [Guo, H., Qian, Y., Zhu, Y., Dai, X., Wang, X. Confidence intervals for the difference between coefficients of variation of zero-inflated gamma distributions[J]. AIMS Mathematics, 2023, 8(12): 29713-29733.](https://www.aimspress.com/article/doi/10.3934/math.20231521)
-  
+
+  - title: Talks
+    layout: list
+    content:
+      - layout: top-middle
+        border: weak
+        description: |
+          - [(2026) ARNI FM Working Group Meeting, "Sparse-View Interpretable 3D Animal Behavior Representations for Neural Encoding and Decoding." Columbia University.](https://arni-institute.org/events-workinggroupspeakers/#:~:text=Mia%20Dai%20(Columbia)%2D%20June%208%2C%202026)
+
   - title: Research Experience
     layout: list
     content:

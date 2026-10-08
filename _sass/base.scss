@@ -160,6 +160,16 @@ body {
   @media print {
     margin-top: 20px;
   }
+
+  @media (min-width: 768px) {
+    width: 650px;
+  }
+  @media (min-width: 992px) {
+    width: 800px;
+  }
+  @media (min-width: 1200px) {
+    width: 900px;
+  }
 }
 
 .header-container {
