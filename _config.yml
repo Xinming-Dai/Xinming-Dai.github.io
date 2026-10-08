@@ -103,34 +103,6 @@ content:
           - Built visualizations with Seaborn to evaluate and enhance algorithm performance and analyze scanned objects
           - [Slides](https://drive.google.com/file/d/1pKdUtVn2c92uG9e5l_zSaDElhL_dH4Ur/view?usp=sharing)
   
-  - title: Education
-    layout: list
-    content:
-      - layout: top-left
-        border: weak
-        title: Columbia University
-        sub_title: "Ph.D. in Statistics"
-        caption: 2024 September - Current
-      - layout: top-left
-        border: weak
-        title: New York University
-        sub_title: "M.S. in Statistics, GPA: 3.97/4"
-        caption: September 2021 - May 2023
-        description: | 
-          - Coursework: Algorithms, Machine Learning, Causal Inference, Multi-Level Modeling, Experimental Design
-          - Leadership Activity: [Society for Statistics Club](https://steinhardt.nyu.edu/current-students/graduate-student-organization/graduate-student-clubs-and-organizations#:~:text=The%20Society%20for%20Statistics%20Students,for%20students%20pursuing%20quantitative%20careers.) Board Member (American Statistical Association)
-      - layout: top-left
-        border: weak
-        title: Qingdao University
-        sub_title: "B.S. in Statistics, GPA: 3.87/4"
-        caption: September 2017 - June 2021
-        description: | 
-          - Math Coursework: Real Analysis, Algebra, Mathematical Analysis, Mathematical Optimization, Differetial Equation
-          - Statistics Coursework: Probability, Time Series, Stochastic Process
-          - Computer Science Coursework: Algorithms, C++, Matlab, Statistical Computing
-          - Finance Coursework: Microeconomics, Macroeconomics, Life Insurance Actuarial Science
-
-  
   # - title: A Little More About Me
   #   layout: text
   #   content: | # this will include new lines to allow paragraphs
